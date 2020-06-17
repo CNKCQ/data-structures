@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		AA21DE2A2499F27F00CAD184 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AA21DE292499F27F00CAD184 /* main.m */; };
+		AA21DE342499F30200CAD184 /* Queue.m in Sources */ = {isa = PBXBuildFile; fileRef = AA21DE332499F30200CAD184 /* Queue.m */; };
+		AA21DE372499F31100CAD184 /* Stack.m in Sources */ = {isa = PBXBuildFile; fileRef = AA21DE362499F31100CAD184 /* Stack.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,10 @@
 /* Begin PBXFileReference section */
 		AA21DE262499F27F00CAD184 /* data-structures */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "data-structures"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA21DE292499F27F00CAD184 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AA21DE322499F30200CAD184 /* Queue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Queue.h; sourceTree = "<group>"; };
+		AA21DE332499F30200CAD184 /* Queue.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Queue.m; sourceTree = "<group>"; };
+		AA21DE352499F31100CAD184 /* Stack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Stack.h; sourceTree = "<group>"; };
+		AA21DE362499F31100CAD184 /* Stack.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Stack.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +63,29 @@
 		AA21DE282499F27F00CAD184 /* data-structures */ = {
 			isa = PBXGroup;
 			children = (
+				AA21DE312499F2D500CAD184 /* Queue */,
+				AA21DE302499F2C200CAD184 /* Stack */,
 				AA21DE292499F27F00CAD184 /* main.m */,
 			);
 			path = "data-structures";
+			sourceTree = "<group>";
+		};
+		AA21DE302499F2C200CAD184 /* Stack */ = {
+			isa = PBXGroup;
+			children = (
+				AA21DE352499F31100CAD184 /* Stack.h */,
+				AA21DE362499F31100CAD184 /* Stack.m */,
+			);
+			path = Stack;
+			sourceTree = "<group>";
+		};
+		AA21DE312499F2D500CAD184 /* Queue */ = {
+			isa = PBXGroup;
+			children = (
+				AA21DE322499F30200CAD184 /* Queue.h */,
+				AA21DE332499F30200CAD184 /* Queue.m */,
+			);
+			path = Queue;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -119,7 +145,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA21DE372499F31100CAD184 /* Stack.m in Sources */,
 				AA21DE2A2499F27F00CAD184 /* main.m in Sources */,
+				AA21DE342499F30200CAD184 /* Queue.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
